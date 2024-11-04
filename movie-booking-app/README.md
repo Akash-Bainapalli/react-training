@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Movie Booking Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The Movie Booking Application is a web-based platform that allows users to browse, select, and book movie tickets. It features a user-friendly interface and offers a seamless experience for movie enthusiasts.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Browse Movies**: Users can view a list of available movies with their details, including title, genre, ratings, and showtimes.
+- **Movie Details**: Click on a movie to see more detailed information, including a synopsis, cast, and ratings.
+- **Booking Tickets**: Users can select their preferred showtime and book tickets for the selected movie.
+- **Seamless Experience**: The application offers a smooth navigation experience, similar to popular platforms like BookMyShow.
+- **Responsive Design**: The application is designed to work on various devices and screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: 
+  - React
+  - Redux Toolkit for state management
+  - React Router for navigation
+  - Axios for API calls
+- **Styling**: 
+  - CSS for styling components
+  - Custom font integration for enhanced aesthetics
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy of this project up and running, follow these steps:
 
-### `npm run build`
+1. Clone the Repository:
+   git clone https://github.com/Akash-Bainapalli/react-training.git
+2. Navigate to the Project Directory:
+   cd react-training
+3. Install Dependencies: Make sure you have Node.js installed. Run the following command to install the necessary dependencies:
+   npm install
+4. Run the Application: Start the development server with:
+   npm run start
+5. Open your browser and navigate to http://localhost:3000 to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+View Movies: Navigate to the home page to see the list of available movies.
+Book Tickets: Select a movie to view details and choose a showtime for booking tickets.
+Access Booking History: Users can view their booking history from the designated section of the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or want to add features, feel free to open an issue or submit a pull request.
 
-### `npm run eject`
+## Acknowledgements
+Thanks to EPAM React Training Team and Google for assisting me
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
+Akash Bainapalli
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: Akash-Bainapalli
